@@ -1,0 +1,131 @@
+body, html {
+  margin: 0;
+  padding: 0;
+  font-family: Arial, sans-serif;
+}
+.container {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 0 20px;
+}
+header {
+  background-color: #eadbdba5;
+  padding: 20px 0;
+}
+.logo {
+  display: flex;
+  align-items: center;
+}
+.logo img {
+  width: 50px;
+  height: 50px;
+  margin-right: 10px;
+}
+nav ul {
+  list-style-type: none;
+  display: flex;
+  justify-content: space-between;
+  padding: 0;
+}
+nav ul li a {
+  text-decoration: none;
+  color: #333;
+}
+.slider,.akc-maindonateBanner img {
+  align-items: self-start;
+  background-color: #e0e0e0;
+  height: 500px;
+  position: relative;
+}
+.slider-nav {
+  position: absolute;
+  top: 50%;
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  padding: 0 20px;
+  box-sizing: border-box;
+}
+.slider-nav button {
+  background: none;
+  border: none;
+  font-size: 24px;
+  cursor: pointer;
+}
+.contribute, .get-help {
+  padding: 40px 0;
+}
+.contribute {
+  background-color: #ffb3ba;
+}
+.get-help {
+  background-color: #ffdfba;
+}
+.content-box {
+  background-color: #fff;
+  width: 200px;
+  height: 200px;
+  margin: 20px 0;
+}
+.btn {
+  display: inline-block;
+  padding: 10px 20px;
+  background-color: #ff6b6b;
+  color: white;
+  text-decoration: none;
+  border-radius: 5px;
+}
+.about-us {
+  padding: 40px 0;
+  height: 500px;
+  display: inline-block;
+  border: #333 ;
+}
+.team-grid {
+  display: grid;
+  width:fit-content;
+  /* grid-row: auto; */
+  justify-content: first baseline;
+  grid-template-columns: repeat(5, 2fr);
+  padding: 20px;
+  
+  gap: 20px;
+  }
+.team-member {
+  background-color: #e0e0e0;
+  height: 120px;
+  width: 120px;
+  border: #333;
+  margin-top: 25px;
+  justify-content: space-between;
+  /* border-radius: 50%; */
+}
+footer {
+  background-color: #333;
+  color: white;
+  padding: 20px 0;
+}
+.footer-content {
+  display: flex;
+  justify-content: space-between;
+}
+
+.button{
+  background-color: #2e7dd8;
+  padding: 5px;
+  border-radius: 5px;
+  display: flex;
+  height:40px ;
+  width:100px ;
+  /* border-color: #ffffff; */
+  box-shadow: 5px 5px #9a9a9a;
+ 
+  justify-content:center;
+  align-items:left;
+  align-content: end;
+  
+  margin: 0.6rem;
+  float: inline-end;
+
+
+}

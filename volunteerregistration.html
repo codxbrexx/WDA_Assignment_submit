@@ -1,0 +1,212 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>Volunteer for Food Donation</title>
+    <link rel="shortcut icon" href="logo2.png" type="image/x-icon" />
+    
+    <style>
+        body {
+            font-family: 'Verdana', sans-serif;
+            background-image: url('your-image-url.jpg'); /* Replace with your image URL */
+            background-size: cover;
+            background-position: center;
+            color: #444;
+            margin: 0;
+            padding: 0;
+            display: flex;
+            flex-direction: column;
+            min-height: 100vh;
+        }
+
+        header {
+            background:linear-gradient(135deg, #ff6b6b, #ffa502);
+            color: white;
+            text-align: center;
+            padding: 40px 0;
+            box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+        }
+
+        header h1 {
+            font-size: 48px;
+            margin-bottom: 10px;
+        }
+
+        header p {
+            font-size: 20px;
+            max-width: 600px;
+            margin: auto;
+        }
+
+        .container {
+            flex: 1;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            padding: 20px;
+        }
+
+        .form-section {
+            background-color: white;
+            border-radius: 10px;
+            box-shadow: 0 4px 20px rgba(0, 0, 0, 0.1);
+            padding: 30px;
+            width: 100%;
+            max-width: 500px;
+            /* text-align: center; */
+        }
+
+        .form-section img {
+            max-width: 100%;
+            height: auto;
+            border-radius: 10px;
+            margin-bottom: 20px;
+        }
+
+        .form-section h2 {
+            font-size: 30px;
+            margin-bottom: 20px;
+            color: #ff5722;
+        }
+
+        .form-group {
+            margin-bottom: 20px;
+        }
+
+        .form-group label {
+            display: block;
+            margin-bottom: 5px;
+            font-weight: bold;
+            color: #333;
+        }
+
+        .form-group input,
+        .form-group textarea {
+            width: 100%;
+            padding: 12px;
+            border-radius: 5px;
+            border: 1px solid #ccc;
+            font-size: 16px;
+            transition: border-color 0.3s ease;
+        }
+
+        .form-group input:focus,
+        .form-group textarea:focus {
+            border-color: #ff5722;
+            outline: none;
+        }
+
+        .submit-btn {
+            display: block;
+            width: 100%;
+            padding: 15px;
+            background-color: #ff5722;
+            color: white;
+            border: none;
+            border-radius: 5px;
+            cursor: pointer;
+            font-size: 18px;
+            font-weight: bold;
+            transition: background-color 0.3s ease;
+        }
+
+        .submit-btn:hover {
+            background-color: #e64a19;
+        }
+
+        footer {
+            background-color: #333;
+            color: white;
+            text-align: center;
+            padding: 15px 0;
+            position: relative;
+        }
+
+        footer p {
+            margin: 0;
+            font-size: 14px;
+        }
+
+        .slogan {
+            margin: 20px 0;
+        }
+
+        .slogan h3 {
+            color: #ff5722;
+            font-size: 22px;
+        }
+        #registrationfrom{
+          display: flex;
+          justify-content: flex-start;
+          align-self: flex-start;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Volunteer for Food Donation</h1>
+        <p>Join us in making a difference in our community by fighting hunger and food waste!</p>
+    </header>
+
+    <main>
+        <div class="container">
+            <div class="form-section">
+                <img src="projectimg1.jpg" alt="Join the Movement!"> <!-- Image placed here -->
+                <h2>Register as a Volunteer</h2>
+                <form id="registrationForm">
+                    <div class="form-group">
+                        <label for="volunteerName">Full Name:</label>
+                        <input type="text" placeholder="Your Name" id="volunteerName" required>
+                    </div>
+
+                    <div class="form-group">
+                        <label for="address">Address:</label>
+                        <input type="text" placeholder="Your Address" id="address" required>
+                    </div>
+
+                    <div class="form-group">
+                        <label for="email">Email:</label>
+                        <input type="email" placeholder="Enter Email" id="email" required>
+                    </div>
+
+                    <div class="form-group">
+                        <label for="phone">Mobile Number:</label>
+                        <input type="tel" id="phone" placeholder="Enter Mobile Number" required>
+                    </div>
+
+                    <div class="form-group">
+                        <label for="age">Age:</label>
+                        <input type="number" id="age" placeholder="Your Age" required>
+                    </div>
+
+                    <div class="form-group">
+                        <label for="availability">Availability:</label>
+                        <input type="text" id="availability" placeholder="e.g., Weekends, Evenings" required>
+                    </div>
+
+                    <div class="form-group">
+                        <label for="password">Create a password:</label>
+                        <input type="password" id="password" required>
+                    </div>
+
+                    <div class="form-group">
+                        <label for="confirmPassword">Confirm password:</label>
+                        <input type="password" id="confirmPassword" required>
+                    </div>
+
+                    <button type="submit" class="submit-btn">Register Now</button>
+                </form>
+                <div class="slogan">
+                    <h3>“Together, we can fight hunger!”</h3>
+                </div>
+            </div>
+        </div>
+    </main>
+
+    <footer>
+        <p>&copy; 2024 Volunteer for Food Donation | All rights reserved</p>
+    </footer>
+</body>
+</html>
